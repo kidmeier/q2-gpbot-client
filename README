@@ -1,0 +1,12 @@
+q2-gpbot-client
+
+Here lies the remnants of an old distributed genetic programming system. The 
+idea was to evolve a Quake2 bot. This is the client piece which more or less
+worked like this:
+
+1. Contact the GP bot server, receive a generation of bots to simulate
+2. Compile each bot's C++ code
+3. Launch a quake2 dedicated server to host the competition
+4. Launch each compiled bot which then connects to the Q2 server
+5. Fight!
+6. Upload results to GP bot server, go to #1
