@@ -10,3 +10,6 @@ worked like this:
 4. Launch each compiled bot which then connects to the Q2 server
 5. Fight!
 6. Upload results to GP bot server, go to #1
+
+The server piece is at: https://github.com/wkral/Distributed-Genetic-Programmer
+
